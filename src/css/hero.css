@@ -1,0 +1,65 @@
+.hero-wrapper{
+    width: 90%;
+    height: 40em;
+    margin: 0 auto;
+    margin-top: 1em !important;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    position: relative;
+}
+.floatText{
+    font-family: "Montserrat Alternates", sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    /* background-color: red; */
+    line-height: .8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.floatText h2{
+    font-size: 2em;
+    margin-left: 1.5em;
+}
+.floatText h1{
+    font-size: 20em;
+    max-width: 100%;
+    text-align: justify;
+}
+.hero-text{
+    z-index: 0;
+    flex-basis: 40%;
+    margin-top: 10em;
+    margin-left: 2em;
+    padding-top: 2em;
+}
+.hero-image{
+    z-index: 0;
+    flex-basis: 60%;
+}
+.hero-image img{
+    width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.cta{
+    margin: 2em 0;
+}
+.cta button{
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background: linear-gradient(to right, #00C4CC, #8B3DFF);
+    font-size: 1.2em;
+    transition: all .3s ease-in-out;
+}
+.cta button:hover{
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, .5);
+}
