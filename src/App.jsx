@@ -1,8 +1,10 @@
 import Break from "./components/Break"
 import Categories from "./components/Categories"
 import Education from "./components/Education"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Testimonial from "./components/Testimonial"
 
 
 function App() {
@@ -15,7 +17,8 @@ function App() {
         <Categories />
         <Break />
         <Education />
-        <h1>Hello World!</h1>
+        <Testimonial />
+        <Footer />
 
       </div>
     </>

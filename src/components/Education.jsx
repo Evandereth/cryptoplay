@@ -1,7 +1,15 @@
 import "../css/edu.css"
 import img5 from "../assets/img6.png"
+import { useState } from "react"
 
 function Education(){
+
+    const[active, setActive] = useState(false)
+
+    function toggleClick(){
+        setActive((prev)=>!prev)
+    }
+
     return(
         <div className="education">
             <div className="education-wrapper">
@@ -20,7 +28,7 @@ function Education(){
 
                 <div className="bottom-section">
                     <div className="bottom-wrapper">
-                        <div className="wrap-clicked">
+                        <div className={active ? "wrap-clicked" : "wrap"}>
                             <div className="wrap-text">
                                 <h1>
                                     the title
@@ -31,7 +39,10 @@ function Education(){
                                 </p>
 
                                 <div className="btn">
-                                    <p>Read More</p> <span onClick="">ArrowIcon</span>
+                                    <button onClick={toggleClick}>Read More <span     class="material-symbols-outlined">
+                                        arrow_right_alt
+                                        </span>
+                                    </button>
                                 </div>
                             </div>
 
@@ -53,7 +64,10 @@ function Education(){
                                 </p>
 
                                 <div className="btn">
-                                    <p>Read More</p> <span onClick="">ArrowIcon</span>
+                                    <button>Read More <span     class="material-symbols-outlined">
+                                        arrow_right_alt
+                                        </span>
+                                    </button>
                                 </div>
                             </div>
 
@@ -75,7 +89,10 @@ function Education(){
                                 </p>
 
                                 <div className="btn">
-                                    <p>Read More</p> <span onClick="">ArrowIcon</span>
+                                    <button>Read More <span     class="material-symbols-outlined">
+                                        arrow_right_alt
+                                        </span>
+                                    </button>
                                 </div>
                             </div>
 

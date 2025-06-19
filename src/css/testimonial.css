@@ -1,0 +1,39 @@
+.testimonial{
+    width: 100%;
+    min-height: 30em;
+    padding: 2em 0;
+     background: rgb(240, 240, 240);
+}
+.testi-wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.testi-wrapper p{
+    margin: 1.5em 0;
+}
+.testi-wrapper .testi-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.testi-wrap .content{
+    background-color: #fff;
+    padding: .5em;
+    width: 20em;
+    height: 20em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+}
+.testi-wrap .content svg{
+    font-size: 4em;
+}
+.testi-wrap .content > p{
+    font-style: italic;
+}

@@ -1,0 +1,33 @@
+footer{
+    width: 100%;
+    height: 8em;
+    position: relative;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topfooter{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #000;
+}
+.topfooter .logo{
+    margin: 0;
+}
+.bottomfooter{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.bottomfooter p{
+    flex-basis: 50%;
+}

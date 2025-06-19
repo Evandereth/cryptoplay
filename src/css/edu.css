@@ -47,6 +47,13 @@
     border-radius: 1.5em;
     padding: 1em;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, .5);
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+.bottom-wrapper .wrap .wrap-text{
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 .bottom-wrapper .wrap .wrap-text > p{
     margin: 1em 0;
@@ -57,6 +64,16 @@
 }
 .bottom-wrapper .wrap .wrap-text > p{
     display: none;
+}
+.bottom-wrapper .wrap .wrap-text .btn{
+    position: absolute;
+    bottom: 0;
+}
+.bottom-wrapper .wrap .wrap-text .btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em
 }
 
 
@@ -70,6 +87,7 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
+    transition: all .3s ease-out
 }
 .bottom-wrapper .wrap-clicked .wrap-text{
     flex-basis: 55%;
@@ -80,6 +98,7 @@
 }
 .bottom-wrapper .wrap-clicked .wrap-image{
     flex-basis: 40%;
+    /* display: contents; */
 }
 .bottom-wrapper .wrap-clicked .wrap-image .image{
     width: 100%;
