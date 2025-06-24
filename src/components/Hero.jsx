@@ -1,5 +1,6 @@
 import "../css/hero.css"
 import heroImage from "../assets/hero.png"
+import { FaArrowRight } from "react-icons/fa6";
 
 function Hero(){
     return(
@@ -15,9 +16,7 @@ function Hero(){
                     </p>
                     <div className="cta">
                         <button>discover now 
-                            <span class="material-symbols-outlined">
-                            arrow_right_alt
-                            </span>
+                            <FaArrowRight />
                         </button>
                     </div>
                 </div>

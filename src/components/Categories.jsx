@@ -15,7 +15,7 @@ function Categories(){
                     <div className="title">
                         <h1>Engaging GameFi</h1>
                     </div>
-                    <div className="content">
+                    <div className="content-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem optio aperiam omnis provident cumque placeat possimus rem unde a saepe! Tempore cum fugiat obcaecati aliquid at enim unde! In, facere.</p>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ function Categories(){
                     <div className="title">
                         <h1>Understanding DeFi</h1>
                     </div>
-                    <div className="content">
+                    <div className="content-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem optio aperiam omnis provident cumque placeat possimus rem unde a saepe! Tempore cum fugiat obcaecati aliquid at enim unde! In, facere.</p>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ function Categories(){
                     <div className="title">
                         <h1>Retard Degenerates</h1>
                     </div>
-                    <div className="content">
+                    <div className="content-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem optio aperiam omnis provident cumque placeat possimus rem unde a saepe! Tempore cum fugiat obcaecati aliquid at enim unde! In, facere.</p>
                     </div>
                 </div>

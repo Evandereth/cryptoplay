@@ -98,7 +98,7 @@ function Education(){
 
                             <div className="wrap-image">
                                 <div className="image">
-                                    <img src={img5} alt="" />
+                                    <img src={img5} alt=""/>
                                 </div>
                             </div>
                         </div>

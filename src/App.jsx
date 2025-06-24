@@ -19,7 +19,6 @@ function App() {
         <Education />
         <Testimonial />
         <Footer />
-
       </div>
     </>
   )

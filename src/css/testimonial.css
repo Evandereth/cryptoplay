@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 30em;
     padding: 2em 0;
-     background: rgb(240, 240, 240);
+    background: rgb(240, 240, 240);
 }
 .testi-wrapper{
     width: 80%;
@@ -20,20 +20,48 @@
     align-items: center;
     gap: 1em;
 }
-.testi-wrap .content{
+.testi-wrap .thecontent{
     background-color: #fff;
     padding: .5em;
     width: 20em;
-    height: 20em;
+    height: 22em;
     display: flex;
+    gap: 1em;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     text-align: left;
 }
-.testi-wrap .content svg{
+.testi-wrap .thecontent .theIcon{
     font-size: 4em;
 }
-.testi-wrap .content > p{
+.testi-wrap .thecontent > p{
     font-style: italic;
+    height: 10em;
+}
+.thecontent .name .star{
+    display: flex;
+    align-items: left;
+    color: gold;
+    margin-top: -1em;
+    /* flex-direction: column; */
+}
+/* MOBILE SCREEN */
+@media(max-width: 500px){
+    .testi-wrapper h2{
+        font-size: 1.2em;
+    }
+    .testi-wrap{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .testi-wrap .thecontent{
+        width: 17em;
+        height: 25em;
+    }
+    .thecontent .name p{
+        font-size: .9em;
+        font-weight: bold;
+    }
 }

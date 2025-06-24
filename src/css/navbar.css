@@ -3,6 +3,7 @@ nav{
     height: 4em;
     background-color: transparent;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
@@ -68,7 +69,7 @@ button{
 }
 
 /* MOBILE SCREEN */
-@media(max-width: 414px){
+@media(max-width: 500px){
     nav{
         background: brown;
         position: relative;
@@ -83,7 +84,7 @@ button{
         left: 0;
         transform: translateX(100%);
         width: 100%;
-        height: 20em;
+        height: 15em;
         padding: 1em 0;
         background: red;
         flex-direction: column;
@@ -110,5 +111,5 @@ button{
     }
       
 
-    /* HERO SECTION */
+    
 }
