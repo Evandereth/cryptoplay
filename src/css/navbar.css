@@ -78,7 +78,7 @@ button{
         display: none;
     }
     .content{
-        position: absolute;
+        position: fixed;
         top: 4em;
         right: -50%;
         width: 50%;
