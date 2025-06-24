@@ -13,7 +13,7 @@ function Navbar(){
                 </div>
 
                 <div className="content">
-                    <ul>
+                        <ul>
                         <li><a href="">about us</a></li>
                         <li><a href="">cryptocurrency education</a></li>
                         <li><a href="">cryptocurrency market</a></li>
