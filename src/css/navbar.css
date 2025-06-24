@@ -85,6 +85,7 @@ button{
         height: 20em;
         padding: 1em 0;
         background: red;
+        display: none;
         flex-direction: column;
         transition: .5s;
     }
@@ -114,8 +115,10 @@ button{
     }
     .hideMenu{
         right: -50%;
+        display: none;
     }
     .showMenu{
         right: 0;
+        display: flex;
     }
 }
