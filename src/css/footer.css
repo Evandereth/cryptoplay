@@ -48,4 +48,7 @@ footer{
         flex-direction: column-reverse;
         gap: 1em;
     }
+    .bottomfooter p{
+    flex-basis: content;
+}
 }
